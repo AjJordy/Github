@@ -2,17 +2,19 @@
 
 ### Git Flow
 
-`$ sudo apt-get install git-flow`: Instalando Git flow
-`$ git flow`: Iniciando o Git flow
-`$ git flow feature start <NAME>`: Criando uma nova feature
+`$ sudo apt-get install git-flow`: Install Git flow
+`$ git flow`: Init Git flow
+`$ git flow feature start <NAME>`: Creating a new feature
+`$ git flow feature finish <NAME>`: Finishing the feature 
+`$ git flow release start <VERSION>`: Create a new release
 
-### Configurações dos nossos branches
+### Config branches
 
-### Pull requests / Templates para PR
+### Pull requests / Templates for PR
 
 ### Code Review
 
-### Plugin do VS Code
+### VS Code Plugin
 
 ### CODEOWNERS 
 
