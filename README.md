@@ -2,13 +2,22 @@
 
 ### Git Flow
 
-### Configurações dos nossos branches
+- `$ sudo apt-get install git-flow`: Install Git flow
+- `$ git flow`: Init Git flow
+- `$ git flow feature start <NAME>`: Creating a new feature
+- `$ git flow feature finish <NAME>`: Feature to Develop 
+- `$ git flow release start <VERSION>`: Create a new release
+- `$ git flow release finish <VERSION>`: Release to Main
+- `$ git flow hotfix start <VERSION>`: Create a new hotfix
+- `$ git flow hotfix finish <VERSION>`: Hotfix to Develop and to Main
 
-### Pull requests / Templates para PR
+### Config branches
+
+### Pull requests / Templates for PR
 
 ### Code Review
 
-### Plugin do VS Code
+### VS Code Plugin
 
 ### CODEOWNERS 
 
