@@ -11,12 +11,17 @@
 - `$ git flow hotfix start <VERSION>`: Create a new hotfix
 - `$ git flow hotfix finish <VERSION>`: Hotfix to Develop and to Main
 
-### Config branches
+### Configurando GPG
 
 - `$ gpg --list-secret-key --keyid-form LONG`: Lista as chaves gpg 
 - `$ gpg --full-generate-key`: Gera uma chave gpg
 - `$ gpg --armor --export <KEY_ID>`: Exportar a chave gerada
-- `$ git config --global user.signingkey <KEY_ID>`: Configurando git  # 5648632C13907375
+- `$ git config --global user.signingkey <KEY_ID>`: Configurando git 
+- `$ export GPG_TTY=$(tty)`: Exportando varável de ambiente
+- `$ git config --global commit.gpgsing true`: Definir padrão sempre assinar commit
+- `$ git config --global tag.gpgsing true`: Definir padrão sempre assinar tag
+
+### Config branches
 
 ### Pull requests / Templates for PR
 
