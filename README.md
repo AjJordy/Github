@@ -13,6 +13,11 @@
 
 ### Config branches
 
+- `$ gpg --list-secret-key --keyid-form LONG`: Lista as chaves gpg 
+- `$ gpg --full-generate-key`: Gera uma chave gpg
+- `$ gpg --armor --export <KEY_ID>`: Exportar a chave gerada
+- `$ git config --global user.signingkey <KEY_ID>`: Configurando git  # 5648632C13907375
+
 ### Pull requests / Templates for PR
 
 ### Code Review
