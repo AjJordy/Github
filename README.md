@@ -21,9 +21,12 @@
 - `$ git config --global commit.gpgsing true`: Definir padrão sempre assinar commit
 - `$ git config --global tag.gpgsing true`: Definir padrão sempre assinar tag
 
-### Config branches
-
 ### Pull requests / Templates for PR
+
+```bash
+mkdir .github
+vim .github/PULL_REQUEST_TEMPLATE.md
+```
 
 ### Code Review
 
