@@ -40,11 +40,14 @@ Semantical versioning
 
 ### Conventional Commits
 
+ ```
 <type>[optional scope]: <description>
 
 [optional body]
 
 [optional footer(s)]
+```
+
 
 **type**: 
 - fix
