@@ -28,10 +28,28 @@ mkdir .github
 vim .github/PULL_REQUEST_TEMPLATE.md
 ```
 
-### Code Review
-
-### VS Code Plugin
-
-### CODEOWNERS 
 
 ### SemVer
+
+Semantical versioning 
+"1.2.3" 
+
+- Major: 1 (Breaking changes)
+- Minor: 2 (New features) 
+- Patch: 3 (Fix and adjusts) 
+
+### Conventional Commits
+
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+**type**: 
+- fix
+- feat
+- BREAKING CHANGE
+- docs
+- build
+- refactor
