@@ -48,7 +48,6 @@ Semantical versioning
 [optional footer(s)]
 ```
 
-
 **type**: 
 - fix
 - feat
@@ -56,3 +55,7 @@ Semantical versioning
 - docs
 - build
 - refactor
+
+### Github Action 
+
+https://docs.github.com/pt/actions/quickstart
