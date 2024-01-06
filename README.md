@@ -58,4 +58,4 @@ Semantical versioning
 
 ### Github Action 
 
-Ref: https://docs.github.com/pt/actions/quickstart
+https://docs.github.com/pt/actions/quickstart
