@@ -59,3 +59,7 @@ Semantical versioning
 ### Github Action 
 
 https://docs.github.com/pt/actions/quickstart
+
+https://github.com/docker/build-push-action
+https://github.com/docker/setup-qemu-action
+https://github.com/docker/setup-buildx-action
