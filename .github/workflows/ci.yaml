@@ -32,8 +32,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-        env:
-          DOCKER_CLI_AK_ENV: github-actions
 
       # Building
       - name: Build and push
