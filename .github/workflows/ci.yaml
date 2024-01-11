@@ -20,6 +20,7 @@ jobs:
       - run: go run math.go
         working-directory: src/
 
+      # Prepare env
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
 
