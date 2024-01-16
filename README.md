@@ -1,4 +1,4 @@
-# Gitflow
+# Github
 
 ### Git Flow
 
